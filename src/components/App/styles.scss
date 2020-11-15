@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.app {
+
+  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(36deg, rgba(29,29,29,1) 0%, rgba(29,29,29,1) 53%, rgba(44,44,44,1) 68%, rgba(61,61,61,1) 91%);
+
+}

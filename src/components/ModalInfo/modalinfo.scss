@@ -1,0 +1,31 @@
+.dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer
+{
+  margin-left: 10%;
+}
+.ui.active.modal {
+  max-width: 70%;
+}
+.modals.dimmer .ui.scrolling.modal{
+max-width: 60% !important;
+margin: 0 auto;
+}
+.ui.modal>.header:not(.ui){
+  text-align: center;
+  font-size: 2em;
+}
+.ModalDescription{
+  max-width: 70% !important;
+  margin-left: 5rem;
+  height: auto;
+  font-size: 1.7em;
+  margin: 0 auto;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.ui.modal>.content>.image, .ui.modal>[class*="top aligned"] {
+  -ms-flex-item-align: top;
+  align-self: center;
+  margin: 0 auto;
+  position: fixed;
+}

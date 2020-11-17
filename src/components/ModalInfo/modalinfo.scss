@@ -14,12 +14,11 @@ margin: 0 auto;
   font-size: 2em;
 }
 .ModalDescription{
-  max-width: 70% !important;
-  margin-left: 5rem;
+  max-width: 80%;
   height: auto;
   font-size: 1.7em;
   margin: 0 auto;
-  padding-left: 200px;
+  padding-left: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -28,4 +27,19 @@ margin: 0 auto;
   align-self: center;
   margin: 0 auto;
   position: fixed;
+}
+.modalInfo-title{
+  text-align: center;
+  margin-left: 2rem;
+}
+.modalInfo-left{
+  display: flex;
+
+  align-items: center;
+}
+.modalInfo-img{
+  position: fixed;
+  width: 30%;
+  padding: 0 3rem;
+
 }

@@ -1,0 +1,95 @@
+.projects{
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  margin-left: 10%;
+  flex-direction: column;
+  width: calc(100%-10%);
+  height: 100%;
+  background: linear-gradient(36deg, rgba(29,29,29,1) 0%, rgba(29,29,29,1) 53%, rgba(44,44,44,1) 68%, rgba(61,61,61,1) 91%);
+}
+.projects-div{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  overflow: auto;
+
+}
+.projet{
+  margin-top: 2rem;
+}
+h1{
+  font-size: 3em;
+}
+.projects-title{
+  color:white
+}
+.spanDescr{
+  color: #F7DF1E;
+}
+.projet-title{
+font-size: 2em;
+color: white;
+font-weight: bold;
+}
+.card-project{
+  max-width: 600px;
+  height: 560px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 2rem 0;
+
+  &-img{
+    width: 600px;
+    height: 300px;
+  }
+}
+.card-projet-h3{
+  color: black;
+  font-size: 1.7em;
+  padding: -1rem;
+  font-weight: 800;
+}
+.card-projet-h4{
+  color: rgb(167, 164, 164);
+  font-weight: 300;
+}
+.card-projet-desc{
+  padding: 0 2rem;
+  line-height: 1.4rem;
+}
+.discoverProject{
+  padding: 1rem 6rem;
+  margin-top: 1rem;
+  background-color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+.card-projet-desc{
+  padding-bottom: 1rem;
+}
+.discoverProject:hover{
+  font-weight: bold;
+  color: white;
+  background-color: rgb(105, 105, 105);
+}
+.transition{
+  animation-duration: 1400ms;
+  animation-name:fadeTop; 
+  }
+  @keyframes fadeTop{
+    from{
+      tranform:scale(1, 1) matrix(1, 0, 0, 1, 0, 0);
+      margin-top:100%;
+      width: 90%;
+    }
+    to{
+      margin-top:0;
+      width: 90%;
+    }
+  }

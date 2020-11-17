@@ -132,7 +132,8 @@ const Home = () => (
     <div className="home-footer">
 
       <Link to="/about" type="button" className="footer-about link">About</Link>
-      <Link to="#" type="button" className="footer-skills link">Skills</Link>
+      <Link to="skills" type="button" className="footer-skills link">Skills</Link>
+      <Link to="/projects" type="button" className="footer-skills link">Projects</Link>
 
     </div>
   </div>

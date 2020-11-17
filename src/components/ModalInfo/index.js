@@ -31,10 +31,11 @@ const ModalInfo = ({
       trigger={<Button>En savoir plus</Button>}
       closeInDimmerClick
     >
-      <Modal.Header>{year} - {title}</Modal.Header>
+      <h1 className="modalInfo-title">{year} - {title}</h1>
       <Modal.Content image scrolling>
-        <Image size="medium" src={image} wrapped />
-
+      <div className="modalInfo-left">
+        <img src={image} alt="" className="modalInfo-img" />
+      </div>
         <p className="ModalDescription">
           <p>{longDescription1}</p>
           <p>{longDescription2}</p>

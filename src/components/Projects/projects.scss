@@ -1,7 +1,6 @@
 .projects{
   display: flex;
   width: 100%;
-  padding-top: 3rem;
   margin-left: 10%;
   flex-direction: column;
   width: calc(100%-10%);
@@ -13,9 +12,13 @@
   flex-wrap: wrap;
   width: 100%;
   height: auto;
-  margin-top: 2rem;
   justify-content: space-evenly;
   overflow: auto;
+
+}
+.card-projet-text{
+  display: flex;
+  flex-direction: column;
 
 }
 .projet{
@@ -25,7 +28,8 @@ h1{
   font-size: 3em;
 }
 .projects-title{
-  color:white
+  color:white;
+  margin: 2rem;
 }
 .spanDescr{
   color: #F7DF1E;
@@ -37,7 +41,8 @@ font-weight: bold;
 }
 .card-project{
   max-width: 600px;
-  height: 560px;
+  max-height: 560px;
+  min-height: 560px;
   background-color: white;
   border-radius: 5px;
   margin: 2rem 0;
@@ -50,12 +55,12 @@ font-weight: bold;
 .card-projet-h3{
   color: black;
   font-size: 1.7em;
-  padding: -1rem;
   font-weight: 800;
 }
 .card-projet-h4{
   color: rgb(167, 164, 164);
   font-weight: 300;
+  margin-top: -10px;
 }
 .card-projet-desc{
   padding: 0 2rem;
@@ -72,6 +77,13 @@ font-weight: bold;
 }
 .card-projet-desc{
   padding-bottom: 1rem;
+}
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+  font-size: 1rem;
+  max-width: 60%;
+  margin: 0 auto;
+  justify-self: flex-end;
+
 }
 .discoverProject:hover{
   font-weight: bold;

@@ -7,8 +7,8 @@ const Card = ({
   id, year, title, image, description, path, item, longDescription1,longDescription2,longDescription3,longDescription4, techno1, techno2, techno3, techno4, techno5
 }) => (
   <div className="card">
-    <p className="card-year">{year} - {title}</p>
-    <h1 className="card-title"></h1>
+    <p className="card-year">{year}</p>
+    <h1 className="card-title">{title}</h1>
     <div className="div-img">
       <img className="card-img" src={image} alt="theme de la carte" />
     </div>

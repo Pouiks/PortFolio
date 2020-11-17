@@ -17,7 +17,6 @@
   align-items: center;
 
   &-presentation{
-    margin-top: 2rem;
     width: 50%;
     height: auto;
   }
@@ -35,7 +34,7 @@
 .home-header-techno{
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-right: 5rem;
 }
 .techno1{
@@ -87,7 +86,6 @@
     text-align: left;
     color: white;
     font-size: 1.8em;
-    padding-top: -100px;
     margin-left: 6.5rem;
     line-height: 2;
   }

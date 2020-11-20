@@ -33,7 +33,7 @@ const Home = () => (
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="presentation-text"
-        >je suis Développeur Web
+        >Développeur Web
         </p>
       </div>
 

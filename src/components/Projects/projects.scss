@@ -85,7 +85,6 @@ font-weight: bold;
   font-size: 1rem;
   max-width: 60%;
   margin: 0 auto;
-  justify-self: flex-end;
 
 }
 .discoverProject:hover{
@@ -101,10 +100,58 @@ font-weight: bold;
     from{
       tranform:scale(1, 1) matrix(1, 0, 0, 1, 0, 0);
       margin-top:100%;
-      width: 90%;
+      width: 100%;
     }
     to{
       margin-top:0;
-      width: 90%;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:900px){
+    .projects{
+      display: flex;
+      width: 100%;
+      margin-left: 0;
+      margin: 0 auto;
+      padding-bottom: 2rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 90%;
+      background: linear-gradient(36deg, rgba(29,29,29,1) 0%, rgba(29,29,29,1) 53%, rgba(44,44,44,1) 68%, rgba(61,61,61,1) 91%);
+    }
+    .card-project{
+      width: 85%;
+      background-color: white;
+      border-radius: 5px;
+      margin: 0 auto;
+      margin-top: 20px;
+    
+      &-img{
+        width: 100%;
+        height: 230px;
+      }
+    }
+    .card-projet-text{
+      display: flex;
+      flex-direction: column;    
+    }
+    .projet-title{
+      margin-bottom: 5rem !important;
+    }
+    .card-projet-h3{
+      color: black;
+      margin: 1rem 0;
+      font-size: 1.4em;
+      font-weight: 800;
+    }
+    .card-projet-desc{
+      padding: 0 2rem;
+      line-height: 1.4rem;
+      margin-bottom: 80px;
+    }
+    .projet{
+      margin-bottom: 2rem;
     }
   }

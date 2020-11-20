@@ -64,8 +64,7 @@
 @media screen and (max-width:900px ){
   .card{
     max-width: 80%;
-    min-height: 380px;
-    max-height: 380px;
+height: auto;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -73,5 +72,16 @@
     border-radius: 10px;
     color: rgb(56, 56, 56);
     box-shadow: 0 0 15px -5px rgb(146, 146, 146);
+    
+    &-project{
+      display: flex;
+      flex-direction: column;
+      min-height: initial;
+      
+      &-desc{
+        max-height: 90px;
+        min-height: 80px;
+      }
+    }
   }
 }

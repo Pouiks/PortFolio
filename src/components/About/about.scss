@@ -44,20 +44,19 @@ animation-name:fadeTop;
   from{
     tranform:scale(1, 1) matrix(1, 0, 0, 1, 0, 0);
     margin-top:100%;
-    width: 90%;
+    width: 100%;
   }
   to{
     margin-top:0;
-    width: 90%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width:900px ){
   .about{
-    width: 100% ;
+    min-width: 100%;
     margin-left: 0;
     height: 90%;
-    width: calc(100%-0%);
 
     &-title{
       font-size: 1.3em;

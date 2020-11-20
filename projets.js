@@ -15,7 +15,7 @@ const projet = [
     image: '/images/sites/fleach/Fleach.JPG',
     h3: 'Projet de ma Start-Up',
     h4: 'Landing page de mon ancienne entreprise',
-    description: "Créationd'un site permettant aux maîtres de chiens de localiser via une carte interactive, des groupes de balade autour de chez eux.Mise a disposition d'une session utilisateur, d'un profil tournée autour de l'animal et de la possibilité de rejoindre des groupes et de discuter via une messagerie instantanée au sein du site.",
+    description: "Création de la landing page de l'entreprise que j'ai créé en 2019. ",
   },
   {
     id: 3,

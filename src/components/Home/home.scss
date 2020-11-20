@@ -4,6 +4,7 @@
   margin-left: 10%;
   width: 90%;
   height: 100vh;
+
   background: linear-gradient(36deg, rgba(29,29,29,1) 0%, rgba(29,29,29,1) 53%, rgba(44,44,44,1) 68%, rgba(61,61,61,1) 91%);
 }
     // HEADER
@@ -60,7 +61,7 @@
 
 }
 .techno-img-react{
-  width: 200px;
+  width: 160px;
   height: 150px;
 }
 .techno-img-api{
@@ -72,8 +73,8 @@
   height: 100px;
 }
 .techno-img-psql{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 
 // END HEADER
@@ -90,7 +91,7 @@
     line-height: 2;
   }
 .lookingJob{
-  color: #F7DF1E;
+  color: #6ECEF0;
   font-weight: bold;
 }
 
@@ -110,16 +111,86 @@
   text-decoration: none;
   margin: 0 3rem;
   padding: 2rem 8rem;
-  color: #F7DF1E;
-  border: 1px solid #F7DF1E;
+  color: #6ECEF0;
+  border: 1px solid #6ECEF0;
   background-color: #1D1D1D;
   border-radius: 5px;
   
 }
 .link:hover{
-  background-color: #F7DF1E;
-  transition: 600ms;
-  color: #1D1D1D;
+  background-color: #6ECEF0;
+  transition: 500ms;
+  color: #FFF;
+  font-weight: bold;
 }
 
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+  font-size: 1rem;
+  max-width: 60%;
+  margin: 0 auto;
+  justify-self: flex-end;
+  background-color: #6ECEF0 ;
+  color: white;
+}
 // END FOOTER
+
+@media screen and (max-width:900px){
+  .home{
+    width: 100%;
+    height: 90%;
+    overflow: scroll;
+    margin-left: 0;
+    
+    padding-top: 3rem;
+
+    &-footer{
+      display: flex;
+      flex-direction: column;
+      order: 2;
+
+    }
+  }
+  .home-header{
+    
+    &-presentation{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+    
+  }
+  .presentation-text{
+    font-size: 1.8em;
+    color: #6ECEF0;
+    font-weight: bold ;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0;
+    order: 1;
+  }
+  .home-header-techno{
+    display: none;
+  }
+  .home-body-text{
+    height: auto;
+    max-width: 280px;
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    margin: 0 auto;
+    line-height: 2;
+    order: 3;
+  }
+  .link{
+    font-size: 1.3em;
+    width: 200px;
+    text-decoration: none;
+    margin: 1rem 2rem;
+    padding: 1rem 1rem;
+    color: #6ECEF0;
+    border: 1px solid #6ECEF0;
+    background-color: #1D1D1D;
+    border-radius: 5px;
+  }
+}

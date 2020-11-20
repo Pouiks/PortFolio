@@ -33,18 +33,18 @@ const ModalInfo = ({
     >
       <h1 className="modalInfo-title">{year} - {title}</h1>
       <Modal.Content image scrolling>
-      <div className="modalInfo-left">
-        <img src={image} alt="" className="modalInfo-img" />
-      </div>
+        <div className="modalInfo-left">
+          <img src={image} alt="" className="modalInfo-img" />
+        </div>
         <p className="ModalDescription">
           <p>{longDescription1}</p>
           <p>{longDescription2}</p>
 
-          <li>{techno1}</li>
-          <li>{techno2}</li>
-          <li>{techno3}</li>
-          <li>{techno4}</li>
-          <li>{techno5}</li>
+          <p>{ techno1 }</p>
+          <p>{ techno2 }</p>
+          <p>{ techno3 }</p>
+          <p>{ techno4 }</p>
+          <p>{ techno5 }</p>
 
           <br />
           <p>{longDescription3}</p>

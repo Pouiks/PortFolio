@@ -13,7 +13,7 @@ const Home = () => (
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="presentation-text"
-        >Hello,
+        >Bienvenue,
         </p>
 
         <p
@@ -23,7 +23,7 @@ const Home = () => (
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="presentation-text"
-        >I'm Virgile,
+        >moi c'est Virgile,
         </p>
 
         <p
@@ -33,7 +33,7 @@ const Home = () => (
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           className="presentation-text"
-        >Web Front Developer
+        >je suis Développeur Web
         </p>
       </div>
 
@@ -123,17 +123,15 @@ const Home = () => (
     </div>
 
     <div className="home-body">
-      <p className="home-body-text">My expertise is mainly based on my experiences
-        with entrepreneurs or developers with whom
-        I was able to work.
-        Freshly graduated, I am currently <span className="lookingJob">looking for a job</span>.
+      <p className="home-body-text">
+Mon expertise repose principalement sur mes expériences avec des entrepreneurs ou des développeurs avec lesquels j'ai pu travailler. Fraîchement diplômé, je suis actuellement à la  <span className="lookingJob">recherche d'un emploi</span>.
       </p>
     </div>
-    <div className="home-footer">
+    <div className="home-footer ">
 
-      <Link to="/about" type="button" className="footer-about link">About</Link>
-      <Link to="skills" type="button" className="footer-skills link">Skills</Link>
-      <Link to="/projects" type="button" className="footer-skills link">Projects</Link>
+      <Link to="/about" type="button" className="footer-about link">Mon parcours</Link>
+      <Link to="skills" type="button" className="footer-skills link">Compétences</Link>
+      <Link to="/projects" type="button" className="footer-skills link"> Mes Projets</Link>
 
     </div>
   </div>

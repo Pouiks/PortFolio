@@ -1,7 +1,7 @@
 const projet = [
   {
     id: 1,
-    link: 'http://ec2-52-86-71-5.compute-1.amazonaws.com:3000/',
+    link: 'http://ec2-100-26-211-150.compute-1.amazonaws.com:3000/',
     title: 'Meet my pet',
     image: '/images/sites/meetmypet/meetmyPet1.JPG',
     h3: 'Projet MeetMyPet',
